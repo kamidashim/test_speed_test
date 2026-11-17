@@ -1,0 +1,17 @@
+{
+  "name": "download-speed-test",
+  "version": "1.0.0",
+  "description": "CLI tool that measures download speed by sequentially requesting a URL",
+  "type": "module",
+  "bin": {
+    "speedtest": "speedtest.js"
+  },
+  "scripts": {
+    "start": "node speedtest.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "license": "MIT"
+}
